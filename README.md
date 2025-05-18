@@ -1,5 +1,5 @@
 
-# 📄 Flask API Docx Classifier with NLP, Wordcloud, and SVM
+# 📄 Flask API Docx Classifier with TF-IDF, LSI and SVM
 
 A web-based Flask API application for classifying `.docx` documents using Natural Language Processing (NLP), visualizing word distributions, and predicting classes (e.g., `RPS` vs `Bukan_RPS`) using a machine learning model based on LSI + SVM.
 
