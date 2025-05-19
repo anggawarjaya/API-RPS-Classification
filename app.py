@@ -21,6 +21,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 app = Flask(__name__)
