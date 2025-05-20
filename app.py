@@ -20,9 +20,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-nltk.download('punkt')
-nltk.download('punkt_tab')
-nltk.download('stopwords')
+nltk.data.path.append('./nltk_data')
 
 app = Flask(__name__)
 UPLOAD_FOLDER = './static/uploads'
