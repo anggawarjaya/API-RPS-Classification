@@ -15,6 +15,7 @@ import uuid
 import numpy as np
 import threading
 import time
+from waitress import serve
 
 import matplotlib
 matplotlib.use('Agg')
@@ -158,4 +159,4 @@ def download_file(filename):
     return send_from_directory(PLOT_FOLDER, filename)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    serve(app, host='0.0.0.0', port=5000)
